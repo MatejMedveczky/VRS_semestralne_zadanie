@@ -1,6 +1,6 @@
 # VRS_semestralne_zadanie - Pásový mobilný robot
 
-## 3D model - 
+## 3D model
 - vytvorit
 - printovat
 - zlozit
