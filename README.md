@@ -117,3 +117,25 @@ implementované pomocou PID regulátora so spätnou väzbou z IMU.
 **Zodpovednosti:**
 - ADC čítanie cez voltage divider
 - Alarm pri nízkom napätí: < 10.5V → varovná správa
+
+## Návod na použitie
+### Klonovanie
+```bash
+cd lokalny priecinok
+git clone https://github.com/MatejMedveczky/VRS_semestralne_zadanie.git
+cd VRS_semestralne_zadanie
+git switch -c VHODNY_NAZOV_BRANCH
+```
+### Prvý commit
+```bash
+git add .
+git commit -m "POPIS ZMENY"
+git push -u origin <VHODNY_NAZOV_BRANCH>
+```
+### Dalšie commity
+Skontroluj či si v správnej branchi
+```bash
+git add .
+git commit -m "POPIS ZMENY"
+git push
+```
